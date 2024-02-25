@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+.body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://media.istockphoto.com/id/1952026131/vector/valentines-day-card-banner-red-background-design-with-copy-space-vector.jpg?s=612x612&w=0&k=20&c=6KIpYY_14WnJnoyov_Dd37d-5paGUCOTFsy2IvPwISA=");
+  background-position: center center;
+}
+
+.paper {
+  background-repeat: no-repeat;
+  background-size: 500px cover;
+  background-position: center center;
+  padding: 20px 100px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+  position: absolute;
+}
+
+.paper:hover {
+  box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.779);
+}
+
+#first {
+  background-image: url('https://media.istockphoto.com/id/1200333610/vector/valentines-day-banner-design-of-paper-hearts-on-blue-background-with-copy-space-vector.jpg?s=612x612&w=0&k=20&c=Z0g9OYq5aEuAWSTlAfXzGqO-WH2nwgqqgAcrUj3vXu4=');
+  background-size: cover;
+}
+
+#second {
+  background-image: url('https://media.istockphoto.com/id/1364148322/photo/valentines-day-podium-for-product-presentation.jpg?s=612x612&w=0&k=20&c=pMp9CyV9wWVRfINmIF_27KtA-Y1wpYLHVMONijlHO_U=');
+  background-size: cover;
+}
+
+#third,
+#for {
+  background-image: url('https://media.istockphoto.com/id/1199264234/photo/blue-valentines-day-background-with-hearts-bokeh-love-concept-wallpaper.jpg?s=612x612&w=0&k=20&c=xsDsgAnl0i2tajfdNPBIrmG619d8ntmtLorQ87bfEYE=');
+  background-size: cover;
+}
+
+#four,
+#last {
+  background-image: url('https://media.istockphoto.com/id/695402118/photo/origami-made-hot-air-balloon-and-cloud.jpg?s=612x612&w=0&k=20&c=fT0FEGOu6-07FphZu6uJuFP-tW9GziBlcvLu7Ba0eZA=');
+  background-size: cover;
+}
+
+#five {
+  background-image: url('https://media.istockphoto.com/id/532271482/photo/love-cloud-with-heart-shape-and-small-other-clouds.jpg?s=612x612&w=0&k=20&c=zmw7sH_TFOq7TpSDgyy0R7jmvfgMLIOlTxkYgK8HIwI=');
+  background-size: cover;
+}
+
+#six,
+#nine {
+  background-image: url('https://media.istockphoto.com/id/1197933530/photo/heap-from-many-small-black-hearts-valentine-day-design-concept-love-background-3d-rendering.jpg?s=612x612&w=0&k=20&c=tecnkUntotwvTdi1KT1nRTAJSTiXATWXEPWOKzVnazk=');
+  background-size: cover;
+}
+
+#seven,
+#thir {
+  background-image: url('https://media.istockphoto.com/id/1191251531/vector/seamless-pattern-with-red-hearts-romantic-creamy-peach-background-for-textile-wallpaper.jpg?s=612x612&w=0&k=20&c=RqOsWkdXpYGaLs6uJ8-7Z0MjfXlIY73--E_oTjW1ZcE=');
+  background-size: cover;
+}
+
+#eight,
+#eleven {
+  background-image: url('https://media.istockphoto.com/id/940895040/vector/repeated-hearts-drawn-by-hand-cute-seamless-pattern-endless-romantic-print.jpg?s=612x612&w=0&k=20&c=4yJlgUkAZgUlsY_DgAZA192LQtO-TSrDRuRSYjeKBoQ=');
+  background-size: cover;
+}
+
+#ten,
+#twelve {
+  background-image: url('https://media.istockphoto.com/id/1448143693/vector/cute-background-illustration-of-a-glowing-heart.jpg?s=612x612&w=0&k=20&c=ylmOeuOuq5ZTb8BkoCN-1JLXck3h94wPUjMKtsino0A=');
+  background-size: cover;
+}
+
+.p1 {
+  font-family: 'Zeyada';
+  font-size: 50px;
+  color: rgb(0, 0, 100);
+  opacity: 0.75;
+  user-select: none;
+}
+
+.p2 {
+  font-family: 'Zeyada';
+  font-size: 50px;
+  color: #ff1a1a;
+  opacity: 0.75;
+  user-select: none;
+}
+
+.p3 {
+  font-family: 'Zeyada';
+  font-size: 30px;
+  color: rgb(0, 0, 100);
+  opacity: 0.75;
+  user-select: none;
+}
+
+.p4 {
+  font-family: 'Zeyada';
+  font-size: 35px;
+  color: black;
+  opacity: 1;
+  user-select: none;
+}
+
+.p5 {
+  font-family: 'Zeyada';
+  font-size: 50px;
+  color: white;
+  opacity: 0.75;
+  user-select: none;
+}
+
+.p6 {
+  font-family: 'Zeyada';
+  font-size: 50px;
+  color: #ff6666;
+  opacity: 1;
+  user-select: none;
+}
+
+.paper.heart {
+  background-image: url('https://media.istockphoto.com/id/498927233/photo/heart-shaped-tree.jpg?s=612x612&w=0&k=20&c=aaMIelK8xiSk7b_XsFovYTRzLfN_UoFTTodURlyMOb8=');
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.paper.image {
+  padding: 20px;
+}
+
+.paper.image p {
+  font-family: 'Protest Riot', sans-serif;
+  color: black;
+  opacity: 1;
+  font-size: 20px;
+}
+
+img {
+  max-height: 500px;
+  width: 100%;
+  user-select: none;
+}
+
+.paper.heart::after {
+  content: "";
+  background-image: url('');
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 868px) {
+  body {
+    background-size: contain;
+  }
+  .paper {
+    padding: 30px 90px;
+  }
+
+  .paper.image p {
+    font-size: 24px;
+  }
+
+  img {
+    max-height: 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-size: contain;
+    position: fixed;
+  }
+  .paper {
+    padding: 20px 50px;
+  }
+
+  .paper.image p {
+    font-size: 22px;
+  }
+
+  img {
+    max-height: 400px;
+  }
+}
