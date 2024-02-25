@@ -1,103 +1,81 @@
+.centered {
+    width: 100vw;
+    height: 100vh;
+    margin: 40vh auto; /* Decreased margin for mobile */
+    text-align: center;
+  }
+  
+  .centered h4 {
+    color: #FFFFFF;
+    font-size: 1.8em; /* Decreased font size for mobile */
+    font-weight: bold;
+  }
+  
+  .no, .yes {
+    padding: 8px 16px; /* Decreased padding for mobile */
+    background-color: #D8124B;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .yes {
+    margin-left: 5px; /* Adjusted margin for mobile */
+    background-color: #12D890;
+  }
+  
+  .signature {
+    margin-top: 10px; /* Decreased margin for mobile */
+    width: 100%;
+  }
+  
+  .signature p {
+    text-align: center;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 0.8em; /* Decreased font size for mobile */
+    color: #FFFFFF;
+  }
 
-.heart {
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.love {
-    height: 70px;
-    width: 80%;
-}
-
-svg {
-    overflow: visible;
-}
-
-svg path#line {
-    fill: none;
-    stroke: #000000;
-    stroke-width: 4;
-    stroke-linecap: butt;
-    stroke-linejoin: round;
-    stroke-miterlimit: 4;
-    stroke-dasharray: none;
-    stroke-opacity: 1;
-    stroke-dasharray: 1;
-    stroke-dashoffset: 1;
-    animation: dash 5s linear infinite;
-}
-
-svg path#heart {
-    transform-origin: 50% 50%;
-    animation: blink 5s linear infinite;
-}
-
-@keyframes dash {
+  
+  .no:hover {
+    animation: moveButton 50s ease;
+  }
+  
+  @keyframes moveButton {
     0% {
-        stroke-dashoffset: 1;
-    }
-    80% {
-        stroke-dashoffset: 0;
+      transform: translateY(0px);
     }
     100% {
-        stroke-dashoffset: 0;
+      transform: translateY(-1000px);
     }
-}
-
-@keyframes blink {
-    0% {
-        opacity: 0;
-        transform: scale(0);
-    }
-    60% {
-        opacity: 0;
-        transform: scale(0);
-    }
-    70% {
-        opacity: 1;
-        transform: scale(1.2);
-    }
-    75% {
-        opacity: 1;
-        transform: scale(1.0);
-    }
-    80% {
-        opacity: 1;
-        transform: scale(1.2);
-    }
-    85% {
-        opacity: 1;
-        transform: scale(1.0);
-    }
-    100% {
-        opacity: 0;
-        transform: scale(1.0);
-    }
-}
-
-@media only screen and (max-width: 400px) {
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 600px) {
     .centered {
-        width: 90%;
-        margin: 20vh auto;
+        width: 100vw;
+        height: 100vh;
+        margin: 35vh 2vw; /* Decreased margin for mobile */
+        text-align: center;
+        display: flex;
+        flex-direction: row;
     }
-
-    a {
-        margin: 0 5px;
+    .no, .yes {
+      margin-top: 20px;
+      padding: 15px 22px; /* Decreased padding for mobile */
+      background-color: #D8124B;
+      border-radius: 8px;
+      align-items: center;
+      transition: transform 0.3s ease;
     }
-	.no{
-        animation: moveButton 30s ease forwards; /* Apply animation to .no button */
+    
+    .yes {
+      margin-left: 10px; /* Adjusted margin for mobile */
+      background-color: #12D890;
     }
-	@keyframes moveButton {
-		0% {
-			transform: translateY(0);
-		}
-		50% {
-			transform: translateY(-1000px);
-		}
-		100% {
-			transform: translateY(-2000px); /* Move button back to original position */
-		}
-	}
-}
+    .signature {
+      margin-top: 25px; /* Decreased margin for mobile */
+      width: 100%;
+    }
+    
+  }
+  
